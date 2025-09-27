@@ -1,20 +1,23 @@
 package converter;
 
-// package converter;
+
 // Unit Converter
 // Background:
 // Conversions between units are common in everyday life (e.g., Celsius to Fahrenheit). This
 // project will help you practice methods and basic math.
 // Task:
-// Write a Java program that converts units.
+// ! Write a Java program that converts units.
 // Requirements:
-// • - Prompt the user to choose a conversion type (e.g., Celsius ↔ Fahrenheit, kilometers ↔
-// miles).
-// • - Create methods for each conversion.
-// • - Display the converted value.
-// Example Run:
-// Input: 0 Celsius
-// Output: 32 Fahrenheit
+// todo Prompt the user to choose a conversion type (e.g., Celsius ↔ Fahrenheit, kilometers ↔
+//  todo miles).
+// todo Create methods for each conversion.
+// todo Display the converted value.
+// *Example Run:
+// *Input: 0 Celsius
+// *Output: 32 Fahrenheit
+
+
+// ? to do
 
 import java.util.Scanner;
 
