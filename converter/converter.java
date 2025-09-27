@@ -29,13 +29,6 @@ class converter{
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Press 1 for 'Celsius ↔ Fahrenheit', and 2 for 'kilometers ↔ miles': ");
-        int choice = scanner.nextInt();
-
-        if (choice.equals(1)) {
-            temp
-        }
-
 
         System.out.print("Enter temperature in Degrees: ");
 
