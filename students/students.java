@@ -42,7 +42,6 @@ public class Students{
     public static void main(String[] args) {
 
 
-        Student student1 = new Student("Mishiwo Emmanuel", 22, 2);
-
+        
     }
 }
