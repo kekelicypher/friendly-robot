@@ -1,9 +1,9 @@
 public class Students{
     
     public class Student {
-        private String name;
+        public String name;
         private int age;
-        private int year;
+        public int year;
 
 
         public int getYear() {
@@ -24,13 +24,25 @@ public class Students{
             this.name = name;
             this.year = year;
             setAge(age);
-    }
+        }
+
+        public void details() {
+            System.out.println("Name: " + this.name);
+            System.out.println("Age: " + this.age);
+            System.out.println("Year: " + this.getYear());
+
+        
+        }
+
 
     }
 
 
 
     public static void main(String[] args) {
+
+
+        Student student1 = new Student("Mishiwo Emmanuel", 22, 2);
 
     }
 }
