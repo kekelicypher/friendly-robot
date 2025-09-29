@@ -1,4 +1,4 @@
-public class Students {
+public class Student {
         public String name;
         private int age;
         public int year;
@@ -18,7 +18,7 @@ public class Students {
             }
         }
 
-         public Students(String name, int age, int year) {
+         public Student(String name, int age, int year) {
              this.name = name;
              this.year = year;
              setAge(age);
