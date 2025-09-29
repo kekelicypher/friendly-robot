@@ -1,6 +1,4 @@
-public class Students{
-    
-    public class Student {
+public class Students {
         public String name;
         private int age;
         public int year;
@@ -20,11 +18,11 @@ public class Students{
             }
         }
 
-        public Student(String name, int age, int year) {
-            this.name = name;
-            this.year = year;
-            setAge(age);
-        }
+        // public Student(String name, int age, int year) {
+        //     this.name = name;
+        //     this.year = year;
+        //     setAge(age);
+        // }
 
         public void details() {
             System.out.println("Name: " + this.name);
@@ -34,14 +32,4 @@ public class Students{
         
         }
 
-
     }
-
-
-
-    public static void main(String[] args) {
-
-
-        
-    }
-}
