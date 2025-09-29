@@ -18,11 +18,11 @@ public class Students {
             }
         }
 
-        // public Student(String name, int age, int year) {
-        //     this.name = name;
-        //     this.year = year;
-        //     setAge(age);
-        // }
+         public Students(String name, int age, int year) {
+             this.name = name;
+             this.year = year;
+             setAge(age);
+         }
 
         public void details() {
             System.out.println("Name: " + this.name);
