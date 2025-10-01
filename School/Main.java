@@ -8,6 +8,9 @@ public class Main {
 
         Staff staff1 = new Staff("Adzoa", 40, "Female", "Caterer");
         
+        
+
+        // todo make an arralist to contain all the objects
 
     }
     

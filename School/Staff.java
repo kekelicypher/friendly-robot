@@ -8,5 +8,10 @@ public class Staff extends Occupant  {
         this.sex = sex;
         this.occupation = occupation;
     };
+
+    @Override
+    public void printDetails() {
+        System.out.println("Name: " + name + ", Age: " + age + ", Sex: " + sex + ", Occupation: " + occupation);
+    }
     
 }

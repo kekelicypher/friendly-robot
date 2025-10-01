@@ -13,5 +13,9 @@ public class Student extends Occupant {
 
     };
 
+    public void printDetails() {
+        System.out.printf("Name: %s, Age: %d, Sex: %s, Course: %s\n", name, age, sex, course);
+    }
+
     
 }

@@ -8,10 +8,7 @@ public abstract class Occupant {
     public String occupation;
 
     //todo implement this function
-    public void printDetails() {
-        System.out.println();
-    }
-
+    abstract void printDetails();
 
 
     
