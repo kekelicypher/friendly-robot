@@ -9,6 +9,7 @@ public abstract class Occupant {
 
     //todo implement this function
     abstract void printDetails();
+    // abstract void show();
 
 
     

@@ -13,5 +13,11 @@ public class Staff extends Occupant  {
     public void printDetails() {
         System.out.println("Name: " + name + ", Age: " + age + ", Sex: " + sex + ", Occupation: " + occupation);
     }
+
+//     @Override
+//     public void show() {
+
+
+//     }
     
 }
