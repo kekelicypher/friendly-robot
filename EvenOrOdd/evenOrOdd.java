@@ -22,12 +22,14 @@ Output: Even
 
 public class evenOrOdd {
 
-    static void check(int number) {
+    static boolean isEven(int number) {
         if (number % 2 == 0) {
-            System.out.println("The number is even");
+            // System.out.println("The number is even");
+            return true;
         }
-        else {
-            System.out.println("The number is odd");
+        else { 
+            // System.out.println("The number is odd");
+            return false;
         }
     }
 
@@ -38,7 +40,13 @@ public class evenOrOdd {
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
 
-        check(input);
+        if (isEven(input)) {
+            System.out.println("Even");
+        }
+        else {
+            System.out.println("Odd");
+            
+        };
 
 
 
