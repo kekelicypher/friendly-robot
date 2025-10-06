@@ -16,21 +16,28 @@ import java.util.Scanner;
 
 public class App {
 
-    static void fib(int num) {
+    static void fibonacci(int num) {
         int first = 0;
         int second = 1;
 
-        System.out.println(first);
-
+        
         for(int i = 0; i < num; i ++) {
+            
+            if(i == 0) {
+                System.out.print(first);
+            }
+            else if( i == 1) {
+                System.out.print(" " + second);
+            }
 
-            int result = first + second;
+            else {
+                int next = first + second;
 
-            System.out.println(result);
+                System.out.print(" " + next);
 
-            first = second;
-            second = result;
-
+                first = second;
+                second = next;
+}
             
         }
 
@@ -45,7 +52,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
 
-        fib(input);
+        fibonacci(input);
 
 
         scanner.close();
