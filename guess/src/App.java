@@ -18,7 +18,7 @@ public class App {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        int ComputerGuess = random.nextInt(1, 11);
+        int ComputerGuess = random.nextInt(1, 101);
 
 
 
@@ -28,7 +28,7 @@ public class App {
 
         int tries = 0;
 
-        while((response != ComputerGuess) && (tries < 5)){
+        while((response != ComputerGuess) && (tries < 25)){
 
             tries++;
             
@@ -43,7 +43,7 @@ public class App {
 
         }
 
-        if (tries < 5) {
+        if (tries < 25) {
 
             System.out.println("You've won!");
         }
